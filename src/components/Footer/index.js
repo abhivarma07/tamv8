@@ -28,7 +28,6 @@ export const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
           <SocialLogo to="/" onClick={toggleHome} ><Logo src = {img1} /></SocialLogo>
-            <SocialLogo to="/" onClick={toggleHome} ><Logo src = {img} /></SocialLogo>
             <SocialIcons>
               <SocialIconsLink href="https://www.instagram.com/smec.tam.v8/" target="_blank" aria-label="Instagram">
                 <FaInstagram />

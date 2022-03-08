@@ -1,13 +1,55 @@
-import React from "react";
+import React , {useState , useEffect}from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 function ImageSlider({data}) {
+
+    function getWindowDimensions() {
+        const { innerWidth: width, innerHeight: height } = window;
+        return {
+          width,
+          height
+        };
+      }
+      
+      function useWindowDimensions() {
+        const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+      
+        useEffect(() => {
+          function handleResize() {
+            setWindowDimensions(getWindowDimensions());
+          }
+      
+          window.addEventListener('resize', handleResize);
+          return () => window.removeEventListener('resize', handleResize);
+        }, []);
+      
+        return windowDimensions;
+      } 
+
+      const { height, width } = useWindowDimensions();
+
+      function slider() {
+
+        if(width > 760){
+            return 3 
+        }
+
+        else if(width > 450){
+            return 2
+        }
+
+        else{
+            return 1
+        }
+
+      }
+
   let settings = {
     dots: true,
     infinite: true,
     speed: 400,
-    slidesToShow: 3,
+    slidesToShow: slider(),
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
