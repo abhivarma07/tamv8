@@ -1,15 +1,15 @@
 export const Quiz =[
-    { id : 1 , name : "CodeVita" , role : "Know More" , desc : "About CodeVita",img : require("../../images/tam.png"),form : "https://rafmnric.paperform.co"},
-    { id : 2 , name : "Circuitronics" , role : "Know More" , desc : "About Circuitronics",img : require("../../images/tam2.png") ,form : "https://rafmnric.paperform.co" },
-    { id : 3 , name : "Sports" , role : "Know More" , desc : "About Sports",img : require("../../images/tam3.png"), form : "https://rafmnric.paperform.co"},
-    { id : 4 , name : "General" , role : "Know More" , desc : "About General",img : require("../../images/tam4.png"), form : "https://rafmnric.paperform.co"},
-    { id : 5 , name : "Entertainment" , role : "Know More" , desc : "About Entertainment",img : require("../../images/tam.png"), form : "https://rafmnric.paperform.co"},
-    { id : 6 , name : "Sports And General 1" , role : "Know More" , desc : "About Sports and General",img : require("../../images/tam2.png"), form : "https://rafmnric.paperform.co"},
-    { id : 7 , name : "Entertainment 1" , role : "Know More" , desc : "About Entertainment",img : require("../../images/tam4.png"), form : "https://rafmnric.paperform.co"},
+    { id : 1 , name : "Sports And General 1st Years" , role : "Know More" , desc : "3/23/2022 WEDNESDAY",img : require("../../images/q.jpg"),form : "https://rafmnric.paperform.co",tar : "_blank"},
+    { id : 2 , name : "Entertainment 1st Years" , role : "Know More" , desc : "3/31/2022 THURSDAY",img : require("../../images/entertainment.jpg") ,form : "https://rafmnric.paperform.co" , tar : "_blank"},
+    { id : 3 , name : "CodeVita" , role : "Know More" , desc : "4/6/2022 WEDNESDAY",img : require("../../images/code.jpg"), form : "https://rafmnric.paperform.co", tar : "_blank"},
+    { id : 4 , name : "Circuitronics" , role : "Know More" , desc : "4/8/2022 FRIDAY",img : require("../../images/circuit.jpg"), form : "https://rafmnric.paperform.co",tar : "_blank"},
+    { id : 5 , name : "Sports" , role : "Know More" , desc : "4/13/2022 WEDNESDAY",img : require("../../images/sports.jpg"), form : "https://rafmnric.paperform.co",tar : "_blank"},
+    { id : 6 , name : "General" , role : "Know More" , desc : "4/18/2022 MONDAY",img : require("../../images/gen.jpg"), form : "https://rafmnric.paperform.co",tar : "_blank"},
+    { id : 7 , name : "Entertainment" , role : "Know More" , desc : "4/20/2022 WEDNESDAY",img : require("../../images/enter.jpg"), form : "https://rafmnric.paperform.co",tar : "_blank"},
 ] ;
 
 export const Events =[
-    { id : 1 , name : "Event1" , role : "Know More" , desc : "About CodeVita",img : require("../../images/tam2.png"), form : "https://rafmnric.paperform.co" , tar : "_blank"},
+    { id : 1 , name : "Group Discussions" , role : "Know More" , desc : "3/24/2022 THURSDAY",img : require("../../images/dis.jpg"), form : "https://rafmnric.paperform.co" , tar : "_blank"},
     { id : 2 , name : "Event2" , role : "Know More" ,desc : "About Circuitronics",img : require("../../images/tam3.png"), form : "https://rafmnric.paperform.co",tar : "_blank"},
     { id : 3 , name : "Event3" , role : "Know More" ,desc : "About Sports",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
     { id : 4 , name : "Event4" , role : "Know More" ,desc : "About General",img : require("../../images/tam.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
