@@ -47,9 +47,8 @@ export const InfoSection = ({
                 <BtnWrap linkS={linkS}>
                   <Button
                     to={to}
-                    smooth={true}
+                    smooth= "true"
                     duration={500}
-                    spy={true}
                     exact="true"
                     offset={100}
                     primary={primary ? 1 : 0}
@@ -62,9 +61,8 @@ export const InfoSection = ({
                 <BtnWrap1 linkR={linkR}>
                   <Button1
                     to={to}
-                    smooth={true}
+                    smooth="true"
                     duration={500}
-                    spy={true}
                     exact="true"
                     offset={100}
                     primary={primary ? 1 : 0}

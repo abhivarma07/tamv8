@@ -56,14 +56,11 @@ function ImageSlider({data}) {
     cssEase: "linear",
   };
 
-  const color = getComputedStyle(document.documentElement).getPropertyValue('--background')
-  console.log(color) 
-
   return (
     <Slider {...settings}>
         {data.map((item,index) => {
             return(
-                <div className="card-wrapper">
+                <div className="card-wrapper" key={item}>
                 <div className="card">
                     <div className="card-image">
                         <img src={item.img} />

@@ -15,7 +15,7 @@ export const Team = ({data}) => {
             <TeamWrapper>
                 {data.map((item,index) => {
                     return(
-                    <TeamCard>
+                    <TeamCard key={index}>
                         <TeamIcon src={item.img}/>
                         <TeamH2>{item.title}</TeamH2>
                         <TeamH2>{item.name}</TeamH2>

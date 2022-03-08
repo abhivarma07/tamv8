@@ -9,7 +9,7 @@ export const Quiz =[
 ] ;
 
 export const Events =[
-    { id : 1 , name : "Group Discussions" , role : "Know More" , desc : "3/24/2022 THURSDAY",img : require("../../images/dis.jpg"), form : "https://rafmnric.paperform.co" , tar : "_blank"},
+    { id : 1 , name : "Group Discussions" , role : "Know More" , desc : "3/24/2022 THURSDAY",img : require("../../images/Quizes/dis.png"), form : "https://rafmnric.paperform.co" , tar : "_blank"},
     { id : 2 , name : "Event2" , role : "Know More" ,desc : "About Circuitronics",img : require("../../images/tam3.png"), form : "https://rafmnric.paperform.co",tar : "_blank"},
     { id : 3 , name : "Event3" , role : "Know More" ,desc : "About Sports",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
     { id : 4 , name : "Event4" , role : "Know More" ,desc : "About General",img : require("../../images/tam.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
