@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 
 export const FooterContainer = styled.footer`
-    background-color :#202020 ;
+    background-color :#000 ;
 `
 
 export const FooterWrap = styled.div`
@@ -80,7 +80,7 @@ export const SocialMediaWrap = styled.div`
     max-width : 1100px ;
 
     @media screen and (max-width : 820px){
-        flex-direction : column ;
+        flex-direction : row ;
     }
 `
 

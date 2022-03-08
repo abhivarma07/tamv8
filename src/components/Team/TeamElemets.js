@@ -21,17 +21,13 @@ export const TeamWrapper = styled.div`
     max-width: 1000px ;
     margin : 0 auto ; 
     display : grid ;
-    grid-template-columns : 1fr 1fr 1fr ;
+    grid-template-columns : 1fr 1fr 1fr 1fr ;
     align-items : center ;
     grid-gap : 20px ;
     padding: 0 50px ;
 
     @media screen and (max-width: 800px){
     grid-template-columns : 1fr 1fr ;
-    }
-
-    @media screen and (max-width: 400px){
-        grid-template-columns : 1fr ;
     }
     
 `
@@ -54,6 +50,10 @@ export const TeamCard = styled.div`
         tranform: scale(1.02) ;
         transition : all 0.2s ease-in-out ;
         cursor : pointer;
+    }
+
+    @media screen and (max-width: 800px){
+        max-height : 300px ;
     }
 `
 

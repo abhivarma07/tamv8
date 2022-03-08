@@ -1,11 +1,11 @@
 export const Quiz =[
-    { id : 1 , name : "CodeVita" , desc : "About CodeVita",img : require("../../images/tam.png"),form : "https://rafmnric.paperform.co"},
-    { id : 2 , name : "Circuitronics" , desc : "About Circuitronics",img : require("../../images/tam2.png") ,form : "https://rafmnric.paperform.co" },
-    { id : 3 , name : "Sports" , desc : "About Sports",img : require("../../images/tam3.png"), form : "https://rafmnric.paperform.co"},
-    { id : 4 , name : "General" , desc : "About General",img : require("../../images/tam4.png"), form : "https://rafmnric.paperform.co"},
-    { id : 5 , name : "Entertainment" , desc : "About Entertainment",img : require("../../images/tam.png"), form : "https://rafmnric.paperform.co"},
-    { id : 6 , name : "Sports And General 1" , desc : "About Sports and General",img : require("../../images/tam2.png"), form : "https://rafmnric.paperform.co"},
-    { id : 7 , name : "Entertainment 1" , desc : "About Entertainment",img : require("../../images/tam4.png"), form : "https://rafmnric.paperform.co"},
+    { id : 1 , name : "CodeVita" , role : "Know More" , desc : "About CodeVita",img : require("../../images/tam.png"),form : "https://rafmnric.paperform.co"},
+    { id : 2 , name : "Circuitronics" , role : "Know More" , desc : "About Circuitronics",img : require("../../images/tam2.png") ,form : "https://rafmnric.paperform.co" },
+    { id : 3 , name : "Sports" , role : "Know More" , desc : "About Sports",img : require("../../images/tam3.png"), form : "https://rafmnric.paperform.co"},
+    { id : 4 , name : "General" , role : "Know More" , desc : "About General",img : require("../../images/tam4.png"), form : "https://rafmnric.paperform.co"},
+    { id : 5 , name : "Entertainment" , role : "Know More" , desc : "About Entertainment",img : require("../../images/tam.png"), form : "https://rafmnric.paperform.co"},
+    { id : 6 , name : "Sports And General 1" , role : "Know More" , desc : "About Sports and General",img : require("../../images/tam2.png"), form : "https://rafmnric.paperform.co"},
+    { id : 7 , name : "Entertainment 1" , role : "Know More" , desc : "About Entertainment",img : require("../../images/tam4.png"), form : "https://rafmnric.paperform.co"},
 ] ;
 
 export const Events =[
