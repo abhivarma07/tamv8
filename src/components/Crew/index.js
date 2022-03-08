@@ -1,6 +1,6 @@
 import React from "react";
 import {InfoSection} from "../InfoSection/index"
-import {tech , marketing} from "../InfoSection/Data"
+import {tech , marketing, events} from "../InfoSection/Data"
 import {HeroSection} from "../HeroSection/index"
 import { Dcrew } from "../HeroSection/data";
 import Signin from "../../pages/signin";
@@ -12,9 +12,9 @@ const Crew = () => {
     <HeroSection data={Dcrew} />
     <InfoSection {...tech}/>
     <Signin data={Tech}/>  
-    <InfoSection {...tech}/>
+    <InfoSection {...marketing}/>
     <Signin data={Tech}/>  
-    <InfoSection {...tech}/>
+    <InfoSection {...events}/>
     <Signin data={Tech}/>    
      </>
   );

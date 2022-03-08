@@ -1,5 +1,5 @@
 import React from "react";
-import { Button , Button1 } from "../ButtomElement";
+import { Button , Button1 , Button2 } from "../ButtomElement";
 import {
   InfoContainer,
   Column2,
@@ -14,6 +14,7 @@ import {
   Subtitle,
   Img,
   BtnWrap1,
+  BtnWrap2
 } from "./InfoElements";
 
 export const InfoSection = ({
@@ -31,7 +32,8 @@ export const InfoSection = ({
   primary,
   dark,
   dark2,
-  to
+  to,
+  linkC
 }) => {
 
   return (
@@ -73,6 +75,21 @@ export const InfoSection = ({
                     {buttonLabel}
                   </Button1>
                 </BtnWrap1>
+                <BtnWrap2 linkC={linkC}>
+                  <Button2
+                    href="https://sago1ocb.paperform.co"
+                    smooth="true"
+                    duration={500}
+                    exact="true"
+                    offset={100}
+                    primary={primary ? 1 : 0}
+                    dark={dark ? 1 : 0}
+                    dark2={dark2 ? 1 : 0}
+                    target = "_blank"
+                  >
+                    {buttonLabel}
+                  </Button2>
+                </BtnWrap2>
               </TextWrapper>
             </Column1>
             <Column2>

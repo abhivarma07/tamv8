@@ -93,6 +93,13 @@ export const BtnWrap1 = styled.div`
     display : ${({linkR}) => (linkR ? 'flex' : 'none')};
 `
 
+export const BtnWrap2 = styled.div`
+    display : flex ;
+    justify-content : flex-start ;
+
+    display : ${({linkC}) => (linkC ? 'flex' : 'none')};
+`
+
 export const ImgWrap = styled.div`
     max-width : 555px;
     height : 100%;

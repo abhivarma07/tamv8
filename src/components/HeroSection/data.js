@@ -7,8 +7,8 @@ export const main  = {
 }
 
 export const Dcrew  = {
-    heading: "TAM CREW", 
-    desc : "MEET THE TEAM",
+    heading: "THE CREW", 
+    desc : "",
     btn : false , 
     width : "400px" ,
     vid : require("../../videos/team.mp4")
