@@ -1,5 +1,5 @@
 export const Quiz =[
-    { id : 1 , name : "Sports And General 1st Years" , role : "Know More" , desc : "3/23/2022 WEDNESDAY",img : require("../../images/Quizes/q.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
+    { id : 1 , name : "Sports And General 1st Years" , role : "Know More" , desc : "3/23/2022 WEDNESDAY",img : require("../../images/Quizes/q.png"),form : "https://ujv2s3mi.paperform.co",tar : "_blank"},
     { id : 2 , name : "Entertainment 1st Years" , role : "Know More" , desc : "3/31/2022 THURSDAY",img : require("../../images/Quizes/entertainment.png") ,form : "https://rafmnric.paperform.co" , tar : "_blank"},
     { id : 3 , name : "CodeVita" , role : "Know More" , desc : "4/6/2022 WEDNESDAY",img : require("../../images/Quizes/code.png"), form : "https://rafmnric.paperform.co", tar : "_blank"},
     { id : 4 , name : "Circuitronics" , role : "Know More" , desc : "4/8/2022 FRIDAY",img : require("../../images/Quizes/circuit.png"), form : "https://rafmnric.paperform.co",tar : "_blank"},
@@ -10,13 +10,11 @@ export const Quiz =[
 
 export const Events =[
     { id : 1 , name : "Group Discussions" , role : "Know More" , desc : "3/24/2022 THURSDAY",img : require("../../images/Quizes/dis.png"), form : "https://rafmnric.paperform.co" , tar : "_blank"},
-    { id : 2 , name : "Event2" , role : "Know More" ,desc : "About Circuitronics",img : require("../../images/tam3.png"), form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 3 , name : "Event3" , role : "Know More" ,desc : "About Sports",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 4 , name : "Event4" , role : "Know More" ,desc : "About General",img : require("../../images/tam.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 5 , name : "Event5" , role : "Know More" ,desc : "About Entertainment",img : require("../../images/tam2.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 5 , name : "Event6" , role : "Know More" ,desc : "About Entertainment",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 5 , name : "Event7" , role : "Know More" ,desc : "About Entertainment",img : require("../../images/tam3.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-
+    { id : 2 , name : "(HTML&CSS)- 1st years" , role : "Know More" ,desc : "3/25/2022 & 3/26/2022",img : require("../../images/tam3.png"), form : "https://vmzbfsfo.paperform.co",tar : "_blank"},
+    { id : 3 , name : "(ARDUINO- 1ST YEARS)" , role : "Know More" ,desc : "4/4/2022 & 4/5/2022",img : require("../../images/tam4.png"),form : "https://tdqtazqo.paperform.co",tar : "_blank"},
+    { id : 4 , name : "CYBER SECURITY" , role : "Know More" ,desc : "4/11/2022 & 4/12/2022",img : require("../../images/tam.png"),form : "https://fyx2p611.paperform.co",tar : "_blank"},
+    { id : 5 , name : "YOUTH PARLIAMENT" , role : "Know More" ,desc : "4/7/2022",img : require("../../images/tam2.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
+    { id : 5 , name : "TAM SHARK TANK" , role : "Know More" ,desc : "4/21/2022",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
 ] ; 
 
 export const Tech =[
