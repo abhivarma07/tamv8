@@ -15,7 +15,15 @@ const Crew = () => {
     <InfoSection {...marketing}/>
     <Signin data={Tech}/>  
     <InfoSection {...events}/>
-    <Signin data={Tech}/>    
+    <Signin data={Tech}/> 
+    <InfoSection {...events}/>
+    <Signin data={Tech}/>
+    <InfoSection {...events}/>
+    <Signin data={Tech}/>
+    <InfoSection {...events}/>
+    <Signin data={Tech}/>
+    <InfoSection {...events}/>
+    <Signin data={Tech}/>   
      </>
   );
 }

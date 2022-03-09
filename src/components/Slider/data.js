@@ -21,5 +21,41 @@ export const Tech =[
     { id : 1 , name : "Abhijeet Varma" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
     { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
     { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
-] ; 
+] ;
+
+export const Event =[
+    { id : 1 , name : "Abhijeet Varma" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+] ;
+
+export const Market =[
+    { id : 1 , name : "Abhijeet Varma" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+] ;
+
+export const VFX =[
+    { id : 1 , name : "Abhijeet Varma" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+] ;
+
+export const Photo =[
+    { id : 1 , name : "Abhijeet Varma" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+] ;
+
+export const Wizards =[
+    { id : 1 , name : "Abhijeet Varma" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+] ;
+
+export const Stage =[
+    { id : 1 , name : "Abhijeet Varma" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+] ;
     
