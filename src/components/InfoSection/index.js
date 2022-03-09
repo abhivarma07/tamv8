@@ -26,6 +26,7 @@ export const InfoSection = ({
   linkS,
   linkR,
   description,
+  desc,
   buttonLabel,
   img,
   alt,
@@ -46,6 +47,7 @@ export const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightBg={lightBg}>{headline}</Heading>
                 <Subtitle lightBg={lightBg}>{description}</Subtitle>
+                <Subtitle lightBg={lightBg}>{desc}</Subtitle>
                 <BtnWrap linkS={linkS}>
                   <Button
                     to={to}

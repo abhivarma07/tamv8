@@ -72,11 +72,15 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-    max-width : 440px ;
-    margin-bottom : 35px;
+    max-width : 470px ;
+    margin-bottom : 33px;
     font-size : 18px ;
     line-height : 24px ;
     color : ${({lightBg}) => (lightBg ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px){
+        font-size : 14px ;
+    }
 `
 
 export const BtnWrap = styled.div`
