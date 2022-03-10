@@ -58,7 +58,7 @@ export const Navbar = ({toggle}) => {
                         duration={500}
                         spy={true}
                         exact='true'
-                        offset={100}
+                        offset={20}
                         activeClass='active'
                         >About</NavLinks>
                     </NavItem>
