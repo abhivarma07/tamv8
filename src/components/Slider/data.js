@@ -47,9 +47,9 @@ export const VFX =[
 ] ;
 
 export const Photo =[
-    { id : 1 , name : "Varun Seeram" , role : "Photography Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
-    { id : 2 , name : "Sagar" , role : "Photography 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
-    { id : 3 , name : "Madhulika" , role : "Photography 2nd Yr" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+    { id : 1 , name : "Varun Seeram" , role : "Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Sagar" , role : "3rd Year" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Madhulika" , role : "2nd Year" ,desc : "About Me",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
 ] ;
 
 export const Wizards =[

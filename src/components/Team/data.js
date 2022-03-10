@@ -4,7 +4,7 @@ export const TeamDetails = [
     {id : 3 , name : "Atulya Chauhan" ,title: "Cheif-Advisor" , desc : "somethings about me", img : require("../../images/Crew Images/3.png") },
     {id : 4 , name : "Yugal Singam" ,title: "Financial-Advisor" , desc : "somethings about me", img : require("../../images/Crew Images/4.png") },
     {id : 5 , name : "Abdul Rahman" ,title: "Technical-Advisor" , desc : "somethings about me", img : require("../../images/Crew Images/5.png") },
-    {id : 6 , name : "Sai Krishna" ,title: "Marketing-Head" , desc : "somethings about me", img : require("../../images/Crew Images/6.png") },
+    {id : 6 , name : "Sai Krishna" ,title: "Marketing-Head" , desc : "somethings about me", img : require("../../images/Crew Images/6.jpg") },
     {id : 7 , name : "Vaishnavi Alluri" ,title: "Events-Head" , desc : "somethings about me", img : require("../../images/Crew Images/7.png") },
     {id : 8 , name : "Dasavanth" ,title: "Technical-Head" , desc : "somethings about me", img : require("../../images/Crew Images/8.png") },
     {id : 9 , name : "Ashish Prajapati" ,title: "Wizards-Head" , desc : "somethings about me", img : require("../../images/Crew Images/9.png") },

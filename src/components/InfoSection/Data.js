@@ -160,3 +160,85 @@ export const events = {
     linkR : false, 
 } ;
 
+export const wiz = {
+    id: 'wiz',
+    lightBg : false ,
+    lightText : false ,
+    lightTextDesc: true ,
+    topLine: 'Wizards Department',
+    headline : 'ECHANTERS' ,
+    description : 'Role Of Wizards Department',
+    buttonLabel : 'Get Started' ,
+    imgStart : true ,
+    img : require('../../images/tam.png') ,
+    alt : 'TAM',
+    dark : true ,
+    primary : true , 
+    darkText : false ,
+    to : 'events' ,
+    linkS : false , 
+    linkR : false, 
+} ;
+
+export const photo = {
+    id: 'photo',
+    lightBg : false ,
+    lightText : false ,
+    lightTextDesc: true ,
+    topLine: 'Photography Department',
+    headline : 'PAPARAZZIS' ,
+    description : 'Role Of Photography Department',
+    buttonLabel : 'Get Started' ,
+    imgStart : true ,
+    img : require('../../images/tam.png') ,
+    alt : 'TAM',
+    dark : true ,
+    primary : true , 
+    darkText : false ,
+    to : 'events' ,
+    linkS : false , 
+    linkR : false, 
+} ;
+
+export const stage = {
+    id: 'photo',
+    lightBg : false ,
+    lightText : false ,
+    lightTextDesc: true ,
+    topLine: 'Stage Department',
+    headline : 'STAGEHANDS' ,
+    description : 'Role Of Stage Department',
+    buttonLabel : 'Get Started' ,
+    imgStart : true ,
+    img : require('../../images/tam.png') ,
+    alt : 'TAM',
+    dark : true ,
+    primary : true , 
+    darkText : false ,
+    to : 'events' ,
+    linkS : false , 
+    linkR : false, 
+} ;
+
+export const vfx = {
+    id: 'vfx',
+    lightBg : false ,
+    lightText : false ,
+    lightTextDesc: true ,
+    topLine: 'VFX Department',
+    headline : 'CREATORS' ,
+    description : 'Role Of VFX Department',
+    buttonLabel : 'Get Started' ,
+    imgStart : true ,
+    img : require('../../images/tam.png') ,
+    alt : 'TAM',
+    dark : true ,
+    primary : true , 
+    darkText : false ,
+    to : 'events' ,
+    linkS : false , 
+    linkR : false, 
+} ;
+
+
+

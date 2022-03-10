@@ -1,6 +1,6 @@
 import React from "react";
 import {InfoSection} from "../InfoSection/index"
-import {tech , marketing, events} from "../InfoSection/Data"
+import {tech , marketing, events , photo, vfx, wiz , stage} from "../InfoSection/Data"
 import {HeroSection} from "../HeroSection/index"
 import { Dcrew } from "../HeroSection/data";
 import Signin from "../../pages/signin";
@@ -16,13 +16,13 @@ const Crew = () => {
     <Signin data={Event}/>  
     <InfoSection {...tech}/>
     <Signin data={Tech}/> 
-    <InfoSection {...events}/>
+    <InfoSection {...wiz}/>
     <Signin data={Wizards}/>
-    <InfoSection {...events}/>
+    <InfoSection {...vfx}/>
     <Signin data={VFX}/>
-    <InfoSection {...events}/>
+    <InfoSection {...photo}/>
     <Signin data={Photo}/>
-    <InfoSection {...events}/>
+    <InfoSection {...stage}/>
     <Signin data={Stage}/>   
      </>
   );
