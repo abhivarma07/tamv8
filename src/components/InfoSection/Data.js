@@ -46,7 +46,7 @@ export const homeObjThree = {
     lightTextDesc: true ,
     topLine: 'Team',
     headline : 'Meet The Crew' ,
-    description : 'Something related to team',
+    description : 'The Amazing team of TAM',
     buttonLabel : 'Know us Better' ,
     imgStart : true ,
     img : require('../../images/team.png') ,
