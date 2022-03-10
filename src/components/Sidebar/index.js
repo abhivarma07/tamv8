@@ -45,9 +45,6 @@ export const Sidebar = ({isOpen , toggle}) => {
                         spy={true}
                         exact='true'>Help</SidebarLink>
                 </SidebarMenu>
-                <SideBtnWrap>
-                    <SidebarRoute to="/signin">Sign In</SidebarRoute>
-                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )
