@@ -20,6 +20,8 @@ export const Events =[
 export const Tech =[
     { id : 1 , name : "Dasavanth" , role : "Technical Head" ,desc : "About Me",img : require("../../images/tam2.png"), form : "javascript:void(0)",tar : "_self"},
     { id : 2 , name : "Abhijeet Varma" , role : "Technical 3rd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Abhijeet Varma" , role : "Technical 2nd Yr" ,desc : "About Me",img : require("../../images/tam3.png"), form : "javascript:void(0)",tar : "_self"},
+
 ] ;
 
 export const Event =[

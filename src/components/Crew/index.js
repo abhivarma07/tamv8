@@ -1,29 +1,29 @@
 import React from "react";
 import {InfoSection} from "../InfoSection/index"
-import {tech , marketing, events, Vfx , Photo, Wizards,Stage} from "../InfoSection/Data"
+import {tech , marketing, events} from "../InfoSection/Data"
 import {HeroSection} from "../HeroSection/index"
 import { Dcrew } from "../HeroSection/data";
 import Signin from "../../pages/signin";
-import { Tech } from "../Slider/data";
+import { Tech , Market , Event , VFX , Wizards , Photo , Stage } from "../Slider/data";
 
 const Crew = () => {
   return (
     <>
     <HeroSection data={Dcrew} />
     <InfoSection {...marketing}/>
-    <Signin data={Tech}/>  
+    <Signin data={Market}/>  
     <InfoSection {...events}/>
-    <Signin data={Tech}/>  
+    <Signin data={Event}/>  
     <InfoSection {...tech}/>
     <Signin data={Tech}/> 
-    <InfoSection {...Wizards}/>
-    <Signin data={Tech}/>
-    <InfoSection {...Vfx}/>
-    <Signin data={Tech}/>
-    <InfoSection {...Photo}/>
-    <Signin data={Tech}/>
-    <InfoSection {...Stage}/>
-    <Signin data={Tech}/>   
+    <InfoSection {...events}/>
+    <Signin data={Wizards}/>
+    <InfoSection {...events}/>
+    <Signin data={VFX}/>
+    <InfoSection {...events}/>
+    <Signin data={Photo}/>
+    <InfoSection {...events}/>
+    <Signin data={Stage}/>   
      </>
   );
 }
