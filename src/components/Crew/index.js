@@ -1,15 +1,17 @@
 import React from "react";
 import {InfoSection} from "../InfoSection/index"
-import {tech , marketing, events , photo, vfx, wiz , stage} from "../InfoSection/Data"
+import {tech , marketing, events , photo, vfx, wiz , stage, board} from "../InfoSection/Data"
 import {HeroSection} from "../HeroSection/index"
 import { Dcrew } from "../HeroSection/data";
 import Signin from "../../pages/signin";
-import { Tech , Market , Event , VFX , Wizards , Photo , Stage } from "../Slider/data";
+import { Tech , Market , Event , VFX , Wizards , Photo , Stage , Board} from "../Slider/data";
 
 const Crew = () => {
   return (
     <>
     <HeroSection data={Dcrew} />
+    <InfoSection {...board}/>
+    <Signin data={Board}/>
     <InfoSection {...marketing}/>
     <Signin data={Market}/>  
     <InfoSection {...events}/>

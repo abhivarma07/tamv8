@@ -24,6 +24,15 @@ export const Tech =[
 
 ] ;
 
+export const Board =[
+    { id : 1 , name : "Paul Samuel" , role : "Chief" ,desc : "About Me",img : "https://ik.imagekit.io/o3b14qow3gqi/Crew/1_62Tkr_neJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646989522261&tr=w-1080%2Ch-566%2Cfo-auto", form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Jessica Benny" , role : "Vice-Chief" ,desc : "About Me",img : "https://ik.imagekit.io/o3b14qow3gqi/Crew/2_ZdqYq1iI2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646989522306&tr=w-1080%2Ch-566%2Cfo-auto", form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Atulya Chauhan" , role : "Chief-Advisor" ,desc : "About Me",img : "https://ik.imagekit.io/o3b14qow3gqi/Crew/at_VSby877PB.jfif?ik-sdk-version=javascript-1.4.3&updatedAt=1646991199682&tr=w-1080%2Ch-566%2Cfo-auto", form : "javascript:void(0)",tar : "_self"},
+    { id : 4 , name : "Yugal Singam" , role : "Financial-Advisor" ,desc : "About Me",img : "https://ik.imagekit.io/o3b14qow3gqi/Crew/4_etuJG5QKS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646989520522&tr=w-1080%2Ch-566%2Cfo-auto", form : "javascript:void(0)",tar : "_self"},
+    { id : 5 , name : "Abdul Rahman" , role : "Technical-Advisor" ,desc : "About Me",img : "https://ik.imagekit.io/o3b14qow3gqi/Crew/5_8Lca2sMtwkAv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646989521616&tr=w-1080%2Ch-566%2Cfo-auto", form : "javascript:void(0)",tar : "_self"},
+
+] ;
+
 export const Event =[
     { id : 1 , name : "Vaishnavi Alluri" , role : "Events Head" ,desc : "About Me",img : "https://ik.imagekit.io/o3b14qow3gqi/Departments/Events/Vaish_JrRBmy_pKRRQ?ik-sdk-version=javascript-1.4.3&updatedAt=1647197911579", form : "javascript:void(0)",tar : "_self"},
     { id : 2 , name : "Rohan Reddy" , role : "Events 3rd Yr" ,desc : "About Me",img : "https://ik.imagekit.io/o3b14qow3gqi/Departments/Events/Rohan_Reddy_3rd_Z_QHLyKOh.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1647195676632&tr=w-1080%2Ch-566%2Cfo-auto", form : "javascript:void(0)",tar : "_self"},
