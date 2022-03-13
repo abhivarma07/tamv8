@@ -5,6 +5,7 @@ import {HeroSection} from "../HeroSection/index"
 import { Dcrew } from "../HeroSection/data";
 import Signin from "../../pages/signin";
 import { Tech , Market , Event , VFX , Wizards , Photo , Stage , Board} from "../Slider/data";
+import { Footer } from "../Footer";
 
 const Crew = () => {
   return (
@@ -26,6 +27,7 @@ const Crew = () => {
     <Signin data={Photo}/>
     <InfoSection {...stage}/>
     <Signin data={Stage}/>   
+    <Footer/>
      </>
   );
 }

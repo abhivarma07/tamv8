@@ -54,6 +54,8 @@ function ImageSlider({data}) {
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "linear",
+    lazyLoad : true , 
+    pauseOnHover : true , 
   };
 
   return (
