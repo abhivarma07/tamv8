@@ -85,7 +85,7 @@ export const Navbar = ({toggle}) => {
                     <NavItem>
                         <NavLinks to="team"
                         smooth = {true} 
-                        duration={500}
+                        duration={1000}
                         spy={true}
                         exact='true'
                         offset={100}

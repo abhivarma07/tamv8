@@ -26,6 +26,10 @@ export const TeamWrapper = styled.div`
     grid-gap : 20px ;
     padding: 0 50px ;
 
+    @media screen and (max-width: 1000px){
+        grid-template-columns : 1fr 1fr 1fr;
+        }
+
     @media screen and (max-width: 800px){
     grid-template-columns : 1fr 1fr ;
     }
@@ -42,7 +46,7 @@ export const TeamCard = styled.div`
     border-color : #fff ;
     border-radius : 10px ;
     max-height : 340px ;
-    padding : 30px ;
+    padding : 20px ;
     box-shadow : 0 1px 3px rgba(0,0,0,0.2) ;
     transition : all 0.2s ease-in-out ;
 
@@ -52,8 +56,10 @@ export const TeamCard = styled.div`
         cursor : pointer;
     }
 
+    
+
     @media screen and (max-width: 800px){
-        max-height : 300px ;
+        max-height : 270px ;
     }
 `
 
@@ -61,8 +67,6 @@ export const TeamIcon = styled.img`
     height : 160px ;
     width : 160px ;
     margin-bottom : 10px ;
-    resizeMode: 'contain' ;
-    flex : 1 ; 
 `
 
 export const TeamH1 = styled.h1`
@@ -80,6 +84,10 @@ export const TeamH2 = styled.h2`
     font-size : 1rem ;
     margin-bottom: 10px ;
     color : #fff ;
+
+    @media screen and (max-width: 800px){
+        margin-bottom: 7px ;
+    }
 `
 
 export const TeamP = styled.p`

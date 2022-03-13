@@ -31,11 +31,11 @@ function ImageSlider({data}) {
 
       function slider() {
 
-        if(width > 760){
+        if(width > 1000){
             return 3 
         }
 
-        else if(width > 450){
+        else if(width > 550){
             return 2
         }
 
