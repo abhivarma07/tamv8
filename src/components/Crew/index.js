@@ -12,21 +12,21 @@ const Crew = () => {
     <>
     <HeroSection data={Dcrew} />
     <InfoSection {...board}/>
-    <Signin data={Board}/>
+    <Signin data={Board} autoplay={false}/>
     <InfoSection {...marketing}/>
-    <Signin data={Market}/>  
+    <Signin data={Market} autoplay={false} />  
     <InfoSection {...events}/>
-    <Signin data={Event}/>  
-    <InfoSection {...tech}/>
-    <Signin data={Tech}/> 
+    <Signin data={Event} autoplay={false}/>  
+    <InfoSection {...tech} />
+    <Signin data={Tech} autoplay={false}/> 
     <InfoSection {...wiz}/>
-    <Signin data={Wizards}/>
+    <Signin data={Wizards} autoplay={false}/>
     <InfoSection {...vfx}/>
-    <Signin data={VFX}/>
-    <InfoSection {...photo}/>
-    <Signin data={Photo}/>
+    <Signin data={VFX} autoplay={false}/>
+    <InfoSection {...photo} />
+    <Signin data={Photo} autoplay={false}/>
     <InfoSection {...stage}/>
-    <Signin data={Stage}/>   
+    <Signin data={Stage} autoplay={false}/>   
     <Footer/>
      </>
   );

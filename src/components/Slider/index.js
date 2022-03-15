@@ -2,7 +2,16 @@ import React , {useState , useEffect}from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-function ImageSlider({data}) {
+function ImageSlider({data , autoplay}) {
+
+
+    function autop(){
+      if(!autoplay){
+        return false 
+      }
+
+      return true 
+    }
 
     function getWindowDimensions() {
         const { innerWidth: width, innerHeight: height } = window;
@@ -50,7 +59,7 @@ function ImageSlider({data}) {
     infinite: true,
     speed: 400,
     slidesToShow: slider(),
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "linear",

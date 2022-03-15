@@ -26,9 +26,9 @@ const Home = () => {
          <HeroSection data={main}/> 
          <InfoSection {...homeObjOne}/>
          <InfoSection {...homeObjTwo}/>
-         <Signin data={Events}/>
+         <Signin data={Events} autoplay={"true"}/>
          <InfoSection {...homeObjFive}/>
-         <Signin data={Quiz}/>
+         <Signin data={Quiz} autoplay={"true"}/>
          <InfoSection {...homeObjThree}/>
          <Team data={TeamDetails}/>
          <InfoSection {...homeObjFour}/>

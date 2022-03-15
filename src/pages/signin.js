@@ -1,10 +1,10 @@
 import ImageSlider from "../components/Slider/index.js";
 import "../css/slider.css"
 
-const Signin = ({data}) =>  {
+const Signin = ({data , autoplay}) =>  {
   return (
     <div className="body">
-      <ImageSlider data = {data} />
+      <ImageSlider data = {data} autoplay={autoplay}/>
     </div>
   );
 }

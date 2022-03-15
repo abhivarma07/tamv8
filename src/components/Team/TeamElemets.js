@@ -25,6 +25,7 @@ export const TeamWrapper = styled.div`
     align-items : center ;
     grid-gap : 20px ;
     padding: 0 50px ;
+    justify-content: center ;
 
     @media screen and (max-width: 1000px){
         grid-template-columns : 1fr 1fr 1fr;
@@ -64,8 +65,8 @@ export const TeamCard = styled.div`
 `
 
 export const TeamIcon = styled.img`
-    height : 160px ;
-    width : 160px ;
+    height : 190px ;
+    width : 190px ;
     margin-bottom : 10px ;
 `
 

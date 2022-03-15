@@ -126,7 +126,7 @@ export const marketing = {
     lightText : false ,
     lightTextDesc: true ,
     topLine: 'Marketing Department',
-    headline : 'MARKETEERS' ,
+    headline : 'INFLUENCERS' ,
     description : 'Role Of Marketing Department',
     buttonLabel : 'Get Started' ,
     imgStart : true ,
