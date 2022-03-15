@@ -59,7 +59,7 @@ function ImageSlider({data , autoplay}) {
     infinite: true,
     speed: 400,
     slidesToShow: slider(),
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "linear",
