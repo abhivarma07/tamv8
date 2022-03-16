@@ -61,9 +61,11 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom : 24px ;
-    font-size : 48px ;
+    font-size : 38px ;
     line-height : 1.1;
     font-weight : 600 ;
+    align-items : center ;
+    justify-content : center ; 
     color : ${({ lightBg }) => (lightBg ? '#000000' : '#fff')} ;
     
     @media screen and (max-width: 480px){
@@ -76,6 +78,8 @@ export const Subtitle = styled.p`
     margin-bottom : 33px;
     font-size : 18px ;
     line-height : 24px ;
+    align-items : center ;
+    justify-content : center ; 
     color : ${({lightBg}) => (lightBg ? '#010606' : '#fff')};
 
     @media screen and (max-width: 480px){

@@ -3,7 +3,7 @@ import { Navbar } from '../components/Navbar'
 import {Sidebar} from '../components/Sidebar'
 import {HeroSection} from '../components/HeroSection'
 import { InfoSection } from '../components/InfoSection'
-import { homeObjOne , homeObjTwo , homeObjThree, homeObjFour , homeObjFive} from '../components/InfoSection/Data'
+import { homeObjOne , homeObjTwo , homeObjThree, homeObjFour , homeObjFive , advisor , princi} from '../components/InfoSection/Data'
 import { Team } from '../components/Team'
 import { Footer } from '../components/Footer'
 import Signin from './signin'
@@ -31,6 +31,8 @@ const Home = () => {
          <Signin data={Quiz} autoplay={"true"}/>
          <InfoSection {...homeObjThree}/>
          <Team data={TeamDetails}/>
+         <InfoSection {...advisor} /> 
+         <InfoSection {...princi}/>
          <InfoSection {...homeObjFour}/>
          <Footer/>
         </>

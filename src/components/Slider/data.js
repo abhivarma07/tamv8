@@ -63,8 +63,8 @@ export const Photo =[
 
 export const Wizards =[
     { id : 1 , name : "Ashish Prajapati" , role : "Wizards Head" ,desc : " ",img : "https://ik.imagekit.io/o3b14qow3gqi/Departments/Wiz/Ashish_wf7_t2Bb_?ik-sdk-version=javascript-1.4.3&updatedAt=1647198976833", form : "javascript:void(0)",tar : "_self"},
-    { id : 2 , name : "Anshitha Adepu" , role : "Wizards 3rd Yr" ,desc : " ",img : "https://ik.imagekit.io/o3b14qow3gqi/Departments/Wiz/ans_ACW0dDc4wmgX?ik-sdk-version=javascript-1.4.3&updatedAt=1647197012782&tr=w-1080%2Ch-566%2Cfo-auto", form : "javascript:void(0)",tar : "_self"},
-    { id : 3 , name : "Pokshani" , role : "Wizards 2nd Yr" ,desc : " ",img : require("../../images/tam4.png"),form : "javascript:void(0)",tar : "_self"},
+    { id : 2 , name : "Anshitha Adepu" , role : "Wizards 3rd Yr" ,desc : " ",img : "https://ik.imagekit.io/o3b14qow3gqi/Departments/Wiz/ans_48REPP9x_?ik-sdk-version=javascript-1.4.3&updatedAt=1647423642773", form : "javascript:void(0)",tar : "_self"},
+    { id : 3 , name : "Pokshani" , role : "Wizards 2nd Yr" ,desc : " ",img : "https://ik.imagekit.io/o3b14qow3gqi/Departments/Wiz/IMG_1593_DCZdNIrWa.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647424085413",form : "javascript:void(0)",tar : "_self"},
 ] ;
 
 export const Stage =[

@@ -28,7 +28,7 @@ export const HeroSection = ({data}) => {
           <VideoBg autoPlay loop muted src={data.vid} type="video/mps" />
         </HeroBg>
         <HeroContent>
-          <HeroH1>{data.heading} </HeroH1>
+          <HeroH1 cl = {data.cl}>{data.heading} </HeroH1>
           <HeroP>{data.desc}</HeroP>
           <HeroBtnWrapper flag = {data.btn}>
             <Button

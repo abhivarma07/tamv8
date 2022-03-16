@@ -55,7 +55,7 @@ export const Navbar = ({toggle}) => {
                     <NavItem>
                         <NavLinks to="about"
                         smooth = {true} 
-                        duration={500}
+                        duration={800}
                         spy={true}
                         exact='true'
                         offset={20}
@@ -65,7 +65,7 @@ export const Navbar = ({toggle}) => {
                     <NavItem>
                         <NavLinks to="events"
                         smooth = {true} 
-                        duration={500}
+                        duration={800}
                         spy={true}
                         exact='true'
                         offset={100}
@@ -75,7 +75,7 @@ export const Navbar = ({toggle}) => {
                     <NavItem>
                         <NavLinks to="quiz"
                         smooth = {true} 
-                        duration={500}
+                        duration={800}
                         spy={true}
                         exact='true'
                         offset={100}
@@ -93,9 +93,19 @@ export const Navbar = ({toggle}) => {
                         >Team</NavLinks>
                     </NavItem>
                     <NavItem>
+                        <NavLinks to="princi"
+                        smooth = {true} 
+                        duration={1000}
+                        spy={true}
+                        exact='true'
+                        offset={100}
+                        activeClass='active'
+                        >Principal</NavLinks>
+                    </NavItem>
+                    <NavItem>
                         <NavLinks to="help"
                         smooth = {true} 
-                        duration={500}
+                        duration={800}
                         spy={true}
                         exact='true'
                         offset={100}
