@@ -2,6 +2,10 @@ import React , {useState , useEffect}from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {LazyLoadImage} from "react-lazy-load-image-component"
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+
 function ImageSlider({data , autoplay}) {
 
 
@@ -74,7 +78,7 @@ function ImageSlider({data , autoplay}) {
                 <div className="card-wrapper" key={item}>
                 <div className="card">
                     <div className="card-image">
-                        <img src={item.img} />
+                        <LazyLoadImage src={item.img} effect="blur" height="100%" width="100%"/>
                     </div>
                     <ul className="social-icons">
                         <li><a href={item.form} target={item.tar}><i className="fa fa-facebook">{item.role}</i></a></li>

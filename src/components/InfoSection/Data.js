@@ -17,6 +17,8 @@ export const homeObjOne = {
     to : 'events' ,
     linkS : true , 
     linkR : false, 
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const homeObjTwo = {
@@ -37,6 +39,8 @@ export const homeObjTwo = {
     to: 'about',
     linkS : false , 
     linkR : false,
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const homeObjThree = {
@@ -57,6 +61,8 @@ export const homeObjThree = {
     to : '/CrewPage',
     linkS : false , 
     linkR : true,
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const homeObjFour  = {
@@ -66,7 +72,25 @@ export const homeObjFour  = {
     lightTextDesc: true ,                        
     topLine: 'Help',
     headline : 'Stuck? How Can We Help ' ,
-    description : 'Some FAQs to help you',
+    description : " " ,
+    data : [
+        {
+            question : 'When and how did TAM start ?',
+            ans : 'TAM was founded about 8 years ago. A group of proactive students came together to conduct Technical and Non-technical events to broaden knowledge.'
+        },
+        {
+            question : 'What is the objective behind TAM?',
+            ans : 'TAM provides a platform for students to explore their interests and test their skills in today’s Innovative world of Technology.'
+        },
+        {
+            question : 'How do we recruit our crew members?',
+            ans : 'We the TAM members recruit students that are interested and tested on their life skills like speaking ,writing  ,conversational  and collaborative skills.'
+        },
+        {
+            question : 'On what basis do we choose our Events?',
+            ans : 'We conduct events based on technologically loaded domains that are in trend,  and that offers a platform for students to sharpen their Technical and Non-technical skills alike.'
+        }
+    ] ,
     buttonLabel : 'Contact Us' ,
     imgStart : true ,
     img : require('../../images/tam4.png') ,
@@ -78,6 +102,7 @@ export const homeObjFour  = {
     linkS : false , 
     linkR : false,
     linkC : true,
+    view : "flex" ,
 } ;
 
 export const homeObjFive  = {
@@ -98,6 +123,8 @@ export const homeObjFive  = {
     to : 'about',
     linkS : false , 
     linkR : false,
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const tech = {
@@ -107,7 +134,8 @@ export const tech = {
     lightTextDesc: true ,
     topLine: 'Technical Department',
     headline : 'TECHIES' ,
-    description : 'Role Of Technical Department',
+    description : "We basically ensure the smooth functioning of technical operations, monitor and evaluate stuff etc."+
+    " We lead a path for our content to be displayed on different platforms of web",
     buttonLabel : 'Get Started' ,
     imgStart : true ,
     img : "https://ik.imagekit.io/o3b14qow3gqi/team/tech_4EjZVL_56qs8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647426464644" ,
@@ -118,6 +146,7 @@ export const tech = {
     to : 'events' ,
     linkS : false , 
     linkR : false, 
+    data : [] ,view : "none" ,
 } ;
 
 export const marketing = {
@@ -138,6 +167,8 @@ export const marketing = {
     to : 'events' ,
     linkS : false , 
     linkR : false, 
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const events = {
@@ -147,7 +178,8 @@ export const events = {
     lightTextDesc: true ,
     topLine: 'Events Department',
     headline : 'EVENTERS' ,
-    description : 'Role Of Event Department',
+    description : "We are the ones behind the execution of event which includes organizing, planning etc. "+
+    "We host an event in such a way that everyone is attracted and we dedicate ourselves from start to end",
     buttonLabel : 'Get Started' ,
     imgStart : false ,
     img : "https://ik.imagekit.io/o3b14qow3gqi/team/event_TErj-pxkk.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647426803182" ,
@@ -158,6 +190,8 @@ export const events = {
     to : 'events' ,
     linkS : false , 
     linkR : false, 
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const wiz = {
@@ -167,7 +201,7 @@ export const wiz = {
     lightTextDesc: true ,
     topLine: 'Wizards Department',
     headline : 'ECHANTERS' ,
-    description : 'Role Of Wizards Department',
+    description : 'We are the literary leaders,we takecare of writing all the tricky questions you have to answer and speeches you have to listen',
     buttonLabel : 'Get Started' ,
     imgStart : false ,
     img : "https://ik.imagekit.io/o3b14qow3gqi/team/wiz_hU6vnfdbgn08.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647426387567" ,
@@ -178,6 +212,8 @@ export const wiz = {
     to : 'events' ,
     linkS : false , 
     linkR : false, 
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const photo = {
@@ -198,6 +234,8 @@ export const photo = {
     to : 'events' ,
     linkS : false , 
     linkR : false, 
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const stage = {
@@ -217,7 +255,9 @@ export const stage = {
     darkText : false ,
     to : 'events' ,
     linkS : false , 
-    linkR : false, 
+    linkR : false,
+    data : [] , 
+    view : "none" ,
 } ;
 
 export const vfx = {
@@ -239,6 +279,8 @@ export const vfx = {
     to : 'events' ,
     linkS : false , 
     linkR : false, 
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const board = {
@@ -260,6 +302,8 @@ export const board = {
     to : 'events' ,
     linkS : false , 
     linkR : false, 
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const advisor  = {
@@ -281,6 +325,8 @@ export const advisor  = {
     linkS : false , 
     linkR : false,
     linkC : false,
+    data : [] ,
+    view : "none" ,
 } ;
 
 export const princi  = {
@@ -307,6 +353,8 @@ export const princi  = {
     linkS : false , 
     linkR : false,
     linkC : false,
+    data : [] ,
+    view : 'none',
 } ;
 
 

@@ -7,6 +7,7 @@ import Signin from "../../pages/signin";
 import { Tech , Market , Event , VFX , Wizards , Photo , Stage , Board} from "../Slider/data";
 import { Footer } from "../Footer";
 
+
 const Crew = () => {
   return (
     <>

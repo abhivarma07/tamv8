@@ -111,6 +111,8 @@ export const BtnWrap2 = styled.div`
 export const ImgWrap = styled.div`
     max-width : 555px;
     height : 100%;
+    overflow : hidden ; 
+    border-radius : 15px ;
 `
 
 export const Img = styled.img`
