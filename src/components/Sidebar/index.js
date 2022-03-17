@@ -37,6 +37,18 @@ export const Sidebar = ({isOpen , toggle}) => {
                         duration={500}
                         spy={true}
                         exact='true'>Team</SidebarLink>
+                    <SidebarLink to="advisor" 
+                        onClick={toggle} 
+                        smooth = {true} 
+                        duration={500}
+                        spy={true}
+                        exact='true'>Advisor</SidebarLink>
+                    <SidebarLink to="princi" 
+                        onClick={toggle} 
+                        smooth = {true} 
+                        duration={500}
+                        spy={true}
+                        exact='true'>Principal</SidebarLink>
                     <SidebarLink 
                         to="help" 
                         onClick={toggle} 

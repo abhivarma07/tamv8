@@ -104,7 +104,6 @@ export const InfoSection = ({
 
   const toggle = index => {
     if (clicked === index) {
-      //if clicked question is already active, then close it
       return setClicked(null);
     }
 

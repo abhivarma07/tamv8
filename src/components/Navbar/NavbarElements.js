@@ -45,7 +45,7 @@ export const NavLogo = styled(LinkR)`
 export const MobileIcon = styled.div`
     display : none ;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 876px){
         display : block ;
         position : absolute ;
         top : 0 ;
@@ -64,7 +64,7 @@ export const NavMenu = styled.ul`
     text-align : center ;
     margin-right : -22px ;
 
-    @media screen and (max-width : 768px){
+    @media screen and (max-width : 876px){
         display : none ;
     }
 
@@ -86,6 +86,9 @@ export const NavLinks = styled(LinkS)`
   &: hover{
     transition : all 0.2s ease-in-out ; 
     color : #01BF71 ;
+    text-decoration : underline ; 
+    text-decoration-color : #fff ;
+    text-underline-offset : 1em ; 
   }
 
   &. active{
