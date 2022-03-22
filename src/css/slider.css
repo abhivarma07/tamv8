@@ -181,12 +181,14 @@
   padding: 10px;
   -webkit-transition: .6s;
   transition: .6s;
+  justify-content: center;
+  align-items: center;
 }
 
 .details h2 {
-  margin: 30px 0;
+  margin: 20px 0;
   padding: 0;
-  text-align: center;
+  text-align:center;
 }
 
 .details h2 .job-title {

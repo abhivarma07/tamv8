@@ -41,7 +41,7 @@ export const HeroSection = ({data}) => {
               duration={500}
               spy={true}
               exact="true"
-              offset={100}
+              offset={40}
             >
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>

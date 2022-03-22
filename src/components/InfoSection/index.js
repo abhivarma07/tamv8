@@ -177,7 +177,7 @@ export const InfoSection = ({
                 </BtnWrap1>
                 <BtnWrap2 linkC={linkC}>
                   <Button2
-                    href="https://sago1ocb.paperform.co"
+                    href="https://vq11ir53vlc.typeform.com/to/hevRV3g6"
                     smooth="true"
                     duration={500}
                     exact="true"
