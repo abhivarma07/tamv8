@@ -9,6 +9,8 @@ import {Nav ,
      NavItem , 
      NavLinks , 
      Logo,
+     NavBtn,
+     NavBtnLink,
 } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll'
 import tamLogo from '../../images/tamLogo.png'
@@ -123,6 +125,9 @@ export const Navbar = ({toggle}) => {
                         >Help</NavLinks>
                     </NavItem>
                 </NavMenu>
+                <NavBtn>
+                    <NavBtnLink to="/timeline" target="_blank">Timeline</NavBtnLink>
+                </NavBtn>
             </NavbarContainer>
          </Nav>
          </IconContext.Provider>

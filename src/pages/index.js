@@ -10,6 +10,9 @@ import Signin from './signin'
 import {Quiz , Events} from "../components/Slider/data"
 import {TeamDetails } from "../components/Team/data"
 import { main } from '../components/HeroSection/data'
+import App from '../components/Timeline'
+
+
 const Home = () => {
 
     const [isOpen, setisOpen] = useState(false)
