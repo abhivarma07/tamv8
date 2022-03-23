@@ -7,13 +7,13 @@ export const Quiz =[
 ] ;
 
 export const Events =[
-    { id : 1 , name : "Group Discussions" , role : "Know More" , desc : "31-03-2022 to 13-04-2022",img : require("../../images/Quizes/dis.png"), form : "https://auwefngc.paperform.co" , tar : "_blank"},
+    { id : 1 , name : "Group Discussions" , role : "Know More" , desc : "31-03-2022 to 13-04-2022",img : require("../../images/Quizes/dis.png"), form : "https://vq11ir53vlc.typeform.com/to/q2ru68mh" , tar : "_blank"},
     { id : 2 , name : "REACT JS" , role : "Know More" ,desc : "28-03-2022 & 29-03-2022",img : require("../../images/tam4.png"),form : "https://vq11ir53vlc.typeform.com/to/v7MiC96M",tar : "_blank"},
-    { id : 3 , name : "CYBER SECURITY" , role : "Know More" ,desc : "11-04-2022 & 12-04-2022",img : require("../../images/tam.png"),form : "https://fyx2p611.paperform.co",tar : "_blank"},
-    { id : 4 , name : "YOUTH PARLIAMENT" , role : "Know More" ,desc : "05-04-2022 TUESDAY",img : require("../../images/tam2.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 5 , name : "TAM SHARK TANK" , role : "Know More" ,desc : "22-04-2022 FRIDAY",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 6, name : "NON-TECHNICAL TALKSHOW" , role : "Know More" ,desc : "06-04-2022",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
-    { id : 7, name : "TECHNICAL TALK SHOW" , role : "Know More" ,desc : "18-04-2022",img : require("../../images/tam4.png"),form : "https://rafmnric.paperform.co",tar : "_blank"},
+    { id : 3 , name : "CYBER SECURITY" , role : "Know More" ,desc : "11-04-2022 & 12-04-2022",img : require("../../images/tam.png"),form : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",tar : "_blank"},
+    { id : 4 , name : "YOUTH PARLIAMENT" , role : "Know More" ,desc : "05-04-2022 TUESDAY",img : require("../../images/tam2.png"),form : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",tar : "_blank"},
+    { id : 5 , name : "TAM SHARK TANK" , role : "Know More" ,desc : "22-04-2022 FRIDAY",img : require("../../images/tam4.png"),form : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",tar : "_blank"},
+    { id : 6, name : "NON-TECHNICAL TALKSHOW" , role : "Know More" ,desc : "06-04-2022",img : require("../../images/tam4.png"),form : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",tar : "_blank"},
+    { id : 7, name : "TECHNICAL TALK SHOW" , role : "Know More" ,desc : "18-04-2022",img : require("../../images/tam4.png"),form : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",tar : "_blank"},
 
 ] ; 
 
