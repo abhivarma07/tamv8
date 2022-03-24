@@ -57,6 +57,9 @@ export const Sidebar = ({isOpen , toggle}) => {
                         spy={true}
                         exact='true'>Help</SidebarLink>
                 </SidebarMenu>
+                <SideBtnWrap>
+                    <SidebarRoute to="/timeline">Register</SidebarRoute>
+                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )
