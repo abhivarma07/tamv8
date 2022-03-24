@@ -126,7 +126,7 @@ export const Navbar = ({toggle}) => {
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/timeline" target="_blank">Timeline</NavBtnLink>
+                    <NavBtnLink to="/timeline" target="_blank">Register</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
          </Nav>
