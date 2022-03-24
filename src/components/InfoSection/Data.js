@@ -327,7 +327,7 @@ export const advisor = {
   topLine: "Faculty Advisor",
   headline: "E.Sowmya",
   description:
-    "Every great organization has a great team. We as a crew at TAM have made it a point to ensure that every event is filled with a great deal of success, in addition to ensuring every participant is able to be served with equal priority. From planning the events to marketing, to making our website, we make sure that we are meeting the needs of every participant.",
+    "Every great organization has a great team and every great teams need a great Advisor. We as a crew at TAM have made it a point to ensure that every event is filled with a great deal of success, in addition to ensuring every participant is able to be served with equal priority. From planning the events to marketing, to making our website, we make sure that we are meeting the needs of every participant.",
   buttonLabel: "Contact Us",
   imgStart: false,
   img: "https://ik.imagekit.io/o3b14qow3gqi/Crew/sss_z642MOd4G.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647509408608",
