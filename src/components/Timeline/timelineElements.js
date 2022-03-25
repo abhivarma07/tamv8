@@ -15,7 +15,7 @@ let timelineElements = [
       description:
         "Make full use of your general knowledge, gear-up and explore the topics of current affairs, history, economics, and new advances in the field of science.",
       buttonText: "Register Here",
-      link : "https://vq11ir53vlc.typeform.com/to/ddpMcZsR",
+      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
       date: "25 March 2022 : 1:20pm - 3:50pm",
       icon: "school",
     },
