@@ -50,7 +50,7 @@ let timelineElements = [
       buttonText: "Register Here",
       date: "31 March 2022 : 1:20pm - 3:50pm",
       icon: "work",
-      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
+      link : "https://vq11ir53vlc.typeform.com/to/rGwGB5i9",
     },
     {
       id: 6,
@@ -105,7 +105,7 @@ let timelineElements = [
       buttonText: "Register Here",
       date: "07 April 2022 : 1:20pm - 3:50pm",
       icon: "school",
-      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
+      link : "https://vq11ir53vlc.typeform.com/to/rGwGB5i9",
     },
     {
       id: 11,
@@ -116,7 +116,7 @@ let timelineElements = [
       buttonText: "Register Here",
       date: "08 April 2022 : 1:20pm - 3:50pm",
       icon: "work",
-      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
+      link : "https://vq11ir53vlc.typeform.com/to/rGwGB5i9",
     },
     {
       id: 12,
@@ -127,7 +127,7 @@ let timelineElements = [
       buttonText: "Register Here",
       date: "11 April 2022 - 12 April 2022 : 9:20am - 3:50pm",
       icon: "school",
-      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
+      link : "https://vq11ir53vlc.typeform.com/to/dyBmsEkX",
     },
     {
       id: 13,
