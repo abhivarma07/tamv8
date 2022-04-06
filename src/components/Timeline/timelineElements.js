@@ -110,13 +110,13 @@ let timelineElements = [
     {
       id: 11,
       title: "Group Discussions ECE & EEE",
-      location: "Seminar Hall, St.Martin's Engineering College",
+      location: "Sports Room, St.Martin's Engineering College",
       description:
         "A group always has the advantage of varied views. This is because a group always has more than one member, and since every member is unique, there is bound to be a variety in their views also. As group decisions tend to cover a greater area, they provide a better insight for decision-making.",
       buttonText: "Register Here",
       date: "08 April 2022 : 1:20pm - 3:50pm",
       icon: "work",
-      link : "https://mqewridd.paperform.co",
+      link : "https://3kxjdeei.paperform.co/",
     },
     {
       id: 12,
@@ -127,7 +127,7 @@ let timelineElements = [
       buttonText: "Register Here",
       date: "11 April 2022 - 12 April 2022 : 9:20am - 3:50pm",
       icon: "school",
-      link : "https://vq11ir53vlc.typeform.com/to/dyBmsEkX",
+      link : "https://noncn51y.paperform.co",
     },
     {
       id: 13,
@@ -147,7 +147,7 @@ let timelineElements = [
       buttonText: "Register Here",
       date: "18 April 2022 : 1:20pm - 3:50pm",
       icon: "school",
-      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
+      link : "https://bakehegc.paperform.co",
     },
     {
       id: 15,
