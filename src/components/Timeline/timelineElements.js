@@ -86,17 +86,6 @@ let timelineElements = [
       link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
     },
     {
-      id: 9,
-      title: "TAM talk show : NON-TECHNICAL",
-      location: "Seminar Hall, St.Martin's Engineering College",
-      description:
-        "Mental health refers to cognitive, behavioral, and emotional well-being. It is all about how people think, feel, and behave. People sometimes use the term “mental health” to mean the absence of a mental disorder. Mental health can affect daily living, relationships, and physical health.",
-      buttonText: "Register Here",
-      date: "06 April 2022 : 1:20pm - 3:50pm",
-      icon: "work",
-      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
-    },
-    {
       id: 10,
       title: "Group Discussions CSE & IT",
       location: "Seminar Hall, St.Martin's Engineering College",
@@ -114,9 +103,18 @@ let timelineElements = [
       description:
         "A group always has the advantage of varied views. This is because a group always has more than one member, and since every member is unique, there is bound to be a variety in their views also. As group decisions tend to cover a greater area, they provide a better insight for decision-making.",
       buttonText: "Register Here",
-      date: "08 April 2022 : 1:20pm - 3:50pm",
+      date: "07 April 2022 : 1:20pm - 3:50pm",
       icon: "work",
       link : "https://3kxjdeei.paperform.co/",
+    },
+    {
+      id: 13,
+      title: "Group Discussions Final Round",
+      location: "Seminar Hall, St.Martin's Engineering College",
+      description:
+        "A group always has the advantage of varied views. This is because a group always has more than one member, and since every member is unique, there is bound to be a variety in their views also. As group decisions tend to cover a greater area, they provide a better insight for decision-making.",
+      date: "08 April 2022 : 1:20pm - 3:50pm",
+      icon: "work",
     },
     {
       id: 12,
@@ -130,13 +128,15 @@ let timelineElements = [
       link : "https://noncn51y.paperform.co",
     },
     {
-      id: 13,
-      title: "Group Discussions Final Round",
+      id: 9,
+      title: "TAM talk show : NON-TECHNICAL",
       location: "Seminar Hall, St.Martin's Engineering College",
       description:
-        "A group always has the advantage of varied views. This is because a group always has more than one member, and since every member is unique, there is bound to be a variety in their views also. As group decisions tend to cover a greater area, they provide a better insight for decision-making.",
+        "Mental health refers to cognitive, behavioral, and emotional well-being. It is all about how people think, feel, and behave. People sometimes use the term “mental health” to mean the absence of a mental disorder. Mental health can affect daily living, relationships, and physical health.",
+      buttonText: "Register Here",
       date: "13 April 2022 : 1:20pm - 3:50pm",
       icon: "work",
+      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
     },
     {
       id: 14,
