@@ -136,7 +136,7 @@ let timelineElements = [
       buttonText: "Register Here",
       date: "13 April 2022 : 1:20pm - 3:50pm",
       icon: "work",
-      link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
+      link : "https://qsej7rzj.paperform.co",
     },
     {
       id: 14,
