@@ -145,7 +145,7 @@ let timelineElements = [
       description:
         "Technology is something that is gaining increasing importance in the world today. Wherever you look, there is technology. Even the device you are using to read this article uses technology. In simple words, technology is when we use science to apply it for practical purposes.",
       buttonText: "Register Here",
-      date: "18 April 2022 : 1:20pm - 3:50pm",
+      date: "19 April 2022 : 1:20pm - 3:50pm",
       icon: "school",
       link : "https://bakehegc.paperform.co",
     },
