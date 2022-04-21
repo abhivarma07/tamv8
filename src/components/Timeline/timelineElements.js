@@ -167,7 +167,7 @@ let timelineElements = [
       description:
         "Shark Tank is a popular show on which investors (or Sharks) hear pitches from business owners who want funding from them. In exchange for their money, the Sharks typically require a stake in the business, which is a percentage of ownership and a share of the profits.",
       buttonText: "Register Here",
-      date: "22 April 2022 : 9:20am - 3:50pm",
+      date: "25 April 2022 : 9:20am - 3:50pm",
       icon: "school",
       link : "https://vq11ir53vlc.typeform.com/to/q2ru68mh",
     },
@@ -177,7 +177,7 @@ let timelineElements = [
       location: "Seminar Hall, St.Martin's Engineering College",
       description:
         "On this note let’s conclude a remarkable, memorable and knowledgeable Valedictory session. On behalf of the institution we sincerely thank the dignitaries for being with us this evening and enlightening us with their enthusiastic remarks. I shower my heartfelt gratitude to the professors and everyone of TAM family for their whole-hearted support rendered in the success of this valedictory session. Thank you very much for joining us.   ",
-      date: "23 April 2022 : 1:20pm - 3:50pm",
+      date: "28 April 2022 : 1:20pm - 3:50pm",
       icon: "work",
     },
     
