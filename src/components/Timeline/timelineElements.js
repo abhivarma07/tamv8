@@ -156,9 +156,9 @@ let timelineElements = [
       description:
         "If you're a person that LOVES and WORSHIPS coding! Here is an event where YOU can hone those amazing coding skills of yours! Charge up your coding battery and join us on this event!",
       buttonText: "Register Here",
-      date: "19 April 2022 : 1:20pm - 3:50pm",
+      date: "22 April 2022 : 1:20pm - 3:50pm",
       icon: "work",
-      link : "https://vq11ir53vlc.typeform.com/to/mdZse77F",
+      link : "https://iym6g0rl.paperform.co",
     },
     {
       id: 16,
